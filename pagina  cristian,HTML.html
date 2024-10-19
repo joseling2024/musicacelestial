@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Cristiano</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>LA SAGRADA</h1>
+        <p>Alabanzas, videos y más</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a id="linkMusica">Música</a>
+        <a id="linkVideos">Videos</a>
+        <a id="linkVersiculo">Versículo del Día</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div id="musicaSection" class="container">
+        <div class="section">
+            <h2>Música</h2>
+            <p>Escucha alabanzas y música cristiana que elevará tu espíritu.</p>
+            <audio controls>
+                <source src="tu-cancion.mp3" type="audio/mp3">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+    </div>
+
+    <div id="videosSection" class="container">
+        <div class="section">
+            <h2>Videos</h2>
+            <p>Mira sermones, alabanzas y testimonios.</p>
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/tu-video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="versiculoSection" class="container">
+        <div class="section">
+            <h2>Versículo del Día</h2>
+            <p>"Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna." - Juan 3:16</p>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Reproductor Cristiano. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
